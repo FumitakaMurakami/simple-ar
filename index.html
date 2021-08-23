@@ -23,8 +23,11 @@ https://aframe.io/docs/1.2.0/introduction/writing-a-component.html
       scale="1 1 1"
     ></a-entity>
     <a-entity
-      light=""
-      data-aframe-default-light=""
+      camera=""
+      position=""
+      wasd-controls=""
+      rotation=""
+      look-controls=""
       aframe-injected=""
     ></a-entity>
     <a-entity
@@ -33,9 +36,11 @@ https://aframe.io/docs/1.2.0/introduction/writing-a-component.html
       data-aframe-default-light=""
       aframe-injected=""
     ></a-entity>
-    <a-entity camera
-      ><a-entity cursor="rayOrigin: mouse; fuse:false"></a-entity>
-    </a-entity>
+    <a-entity
+      light=""
+      data-aframe-default-light=""
+      aframe-injected=""
+    ></a-entity>
   </a-scene>
 </body>
 <!-- http-server -->
